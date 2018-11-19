@@ -1,11 +1,11 @@
 # Site settings
 author: Milena Kari
-title: 
+title: Journey into Fullstack
 header-img: img/home-bg.png
 email: milenakari@yahoo.com
 copyright_name: Milena Kari
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Flatiron Fullstack Web Development Program
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  milenaonmaui
