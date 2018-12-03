@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "How I Got Into Web Development"
-date:       2018-12-03 21:35:02 +0000
+date:       2018-12-03 16:35:03 -0500
 permalink:  how_i_got_into_web_development
 ---
 
@@ -12,7 +12,7 @@ On the other hand, before I got some taste of real web development, I thought if
 
 In 2017 out of a sudden my husband told me to start learning some web development since I was only part-time employed and looking for a tech job. My husband is a Java developer and a friend of his had asked him for help creating a web page. At that time we didn't know any details, we only had a MS Access screenshot that had to be recreated in the browser.
 
-So,  I started a Coursera course from Johns Hopkins University named [HTML, CSS and Javascript for Web Developers](http://) (https://www.coursera.org/learn/html-css-javascript-for-web-developers). Halfway through the course, just after I had covered some HTML, CSS and Bootstrap basics, I got another guidance regarding my future assignment:  "Start learning C#, you are going to need it for the project!". So I searched for beginner courses and found a Udemy course titled [Learn C# with Windows Forms and SQL Server](https://www.udemy.com/csharp6windowsforms/). C# is a Microsoft-developed programming language that is part of the .NET platform. So at that point I installed  Visual Studio Community Edition, MS SQL Server Express and SQL Server Management Studio (SSMS) on my computer - all of them free! One awsome thing I find about web development is that you get most of the tools and frameworks for free.
+So,  I started a Coursera course from Johns Hopkins University named [HTML, CSS and Javascript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers). Halfway through the course, just after I had covered some HTML, CSS and Bootstrap basics, I got another guidance regarding my future assignment:  "Start learning C#, you are going to need it for the project!". So I searched for beginner courses and found a Udemy course titled [Learn C# with Windows Forms and SQL Server](https://www.udemy.com/csharp6windowsforms/). C# is a Microsoft-developed programming language that is part of the .NET platform. So at that point I installed  Visual Studio Community Edition, MS SQL Server Express and SQL Server Management Studio (SSMS) on my computer - all of them free! One awsome thing I find about web development is that you get most of the tools and frameworks for free.
 
 Again, half way through my C# course I realized that I need to focus more seriously on web forms using ASP.NET versus just Windows forms. So then I started yet another course - A 18-hour SQL/SQL Server/ Visual Studio 2017 Course, which covered a lot of necessary ground - SQL, SQL Server, SSMS, ASP.NET, Visual Studio, C#, and HTML.
 
