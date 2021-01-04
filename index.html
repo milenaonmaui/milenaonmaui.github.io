@@ -1,36 +1,99 @@
----
-layout: page
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Around the Island Blog</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/homepage.css"/>
+  
+  </head>
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    {{ post.excerpt }}
-    <p class="post-meta">Posted by {% if site.author %}{{ site.author }}{% else %}{{ site.github_username }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
-<hr>
-{% endfor %}
+  <body>
+    <div class = "container">
+        <header>
+          <h1>Around the Island Blog</h1>
+        
+          <nav class="menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+        <section class="main">
+          <article class="card">
+            <img src="./images/santa.jpeg" alt="Santa" >
+            <div class = "summary">
+              <h4><b>Santa Arrives on a Canoe</b></h4>
+              <h5>December 24, 2020</h5>
+              <p>Santa attempted to arrive on a canoe at Wailea Beach but was prevented by the big shorebreak</p>
+              <button class = "button"><a href="santa-blog.html">Read more ...</a></button>
+            </div> 
+          </article>
+
+          <article class="card">
+            <img src="./images/stargazing.jpg" alt="Stargazing Cruise" >
+            <div class = "summary">
+              <h4><b>Stargazing Cruise Just Launched</b></h4>
+              <h5>November 22, 2020</h5>
+              <p>Pacific whale Foundation just launched a strgazing cruze with astronomer Harriet Witt</p>
+              <button class = "button"><a href="#">Read more ...</a></button>
+            </div>           
+          </article>
+
+          <article class="card">
+            <img src="./images/climbing.jpeg" alt="Climbing" >
+            <div class = "summary">
+              <h4><b>Outdoors Ropes Course in Lahaina</b></h4>
+              <h5>October 20, 2020</h5>
+              <p>A new outdoors ropes climbing course is open at Adventure Park Maui in Lahaina</p>
+              <button class = "button"><a href="#">Read more ...</a></button>
+            </div>           
+          </article>
+
+          <article class="card">
+            <img src="./images/goat-playground.jpeg" alt="Goat Playground" >
+            <div class = "summary">
+              <h4><b>Goat Playground in Kula</b></h4>
+              <h5>September 19, 2020</h5>
+              <p>A Kula resident build a cute playground for his goats. The goats seem to be loving it! </p>
+              <button class = "button"><a href="#">Read more ...</a></button>
+            </div>           
+          </article>
+
+          <article class="card">
+            <img src="./images/Lahaina-ghost-town.jpeg" alt="Lahaina-ghost-town" >
+            <div class = "summary">
+              <h4><b>Lahaina Ghost Town</b></h4>
+              <h5>August 25, 2020</h5>
+              <p>Coronavirus stayhome order has turned Lahaina into a ghost town.</p>
+              <button class = "button"><a href="#">Read more ...</a></button>
+            </div>           
+          </article>
+
+        </section>
+        <aside class="sidebar">
+          <h2>Recent Posts</h2>
+          <ul class="list">
+            <li><a href="#">November 23, 2020</a></li>
+            <li><a href="#">October 20, 2020</a></li>
+            <li><a href="#">September 19, 2020</a></li>
+            <li><a href="#">August 25, 2020</a></li>
+            <li><a href="#">July 25, 2020</a></li>
+            <li><a href="#">June 20, 2020</a></li>
+          </ul>
+          <div class="follow">
+            <button class = "side-button"><a href="#">Follow</a></button>
+            <button class = "side-button"><a href="#">Subscribe</a></button>
+          </div>
+        </aside>
+        <footer>
+          <p> Copyright &copy; Island Creations LLC</p>
+        </footer>
+    </div>
+  </body>
+</html>

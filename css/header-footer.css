@@ -1,0 +1,42 @@
+
+header{ 
+    grid-area: header;
+    background-color: #023047;
+    color: #FFB703;
+    border-bottom: 5px solid #219EBC;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    padding-left: 50px;
+    font-size: 12vw;
+    font-weight: 500;
+    font-style: italic;
+}
+
+nav.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    padding-left: 20px;
+    font-size: 6vw;
+}
+
+@media (min-width: 600px) {
+    nav li {
+        font-size: 1.5em;
+    }
+    h1 {
+        font-size: 3em;
+    }
+}
+
+footer {
+    grid-area: footer;
+    background-color: #023047;
+    color: #FFB703;
+    border-top: 5px solid #219EBC;
+    text-align: center;
+}

@@ -1,0 +1,72 @@
+@import "./style.css";
+@import "./header-footer.css";
+@import "./sidebar.css";
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: main;
+    margin: 0 auto;
+}
+
+.card {
+    box-sizing: border-box;
+    margin: 1%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 0.5rem;
+}
+
+@media (min-width: 300px) and (max-width: 600px){
+    .card {
+        flex: 0 1 48%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1000px){
+    .card {
+        flex: 0 1 31%;
+    }
+}
+
+@media (min-width: 1001px) {
+    .card {
+        flex: 0 1 22%;
+    }
+}
+
+.card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.4);
+}
+  
+.summary {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2px 16px;
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;  
+    height: 200px;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card .button {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 0.25rem;
+    background-color:  #e8f3f7;
+  
+}
+
+.card .button a {
+    color: #023047;
+}
+
+.sidebar .follow {
+    max-width: 90%;
+    margin-top: 50px;
+}
